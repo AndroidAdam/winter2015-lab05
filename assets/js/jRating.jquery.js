@@ -5,7 +5,6 @@
 @Date : 		13/08/2013
 @Author:     	 ALPIXEL - (www.myjqueryplugins.com - www.alpixel.fr)
 @License :		 Open Source - MIT License : http://www.opensource.org/licenses/mit-license.php
-
 **************************************************************************
 *************************************************************************/
 (function($) {
@@ -169,7 +168,6 @@
 							function(data) {
 								if(!data.error)
 								{
-									
 									/** Here you can display an alert box,
 										or use the jNotify Plugin :) http://www.myqjqueryplugins.com/jNotify
 										exemple :	*/
@@ -177,8 +175,6 @@
 								}
 								else
 								{
-								
-
 									/** Here you can display an alert box,
 										or use the jNotify Plugin :) http://www.myqjqueryplugins.com/jNotify
 										exemple :	*/
