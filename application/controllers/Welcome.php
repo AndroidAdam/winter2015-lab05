@@ -24,7 +24,8 @@ class Welcome extends Application {
         $choice = rand(1, $this->quotes->size());
 	$this->data = array_merge($this->data, (array) $this->quotes->get($choice));
         
-	$this->data = array_merge($this->data, (array) $this->quotes->last());
+       $this->data['average'] = ($this->data['vote_count'] > 0) ?
+            ($this->data['vote_total'] / $this->data['vote_count']) : 0;
         $this->caboose->needed('jrating', 'hollywood');
         
 	$this->render();

@@ -5,7 +5,6 @@
  * 
  * hooks/Hooks.php
  * 
- * Thanks to Dan Buhler!
  */
 class Hooks
 {

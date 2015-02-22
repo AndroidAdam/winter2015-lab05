@@ -22,6 +22,7 @@ class Application extends CI_Controller {
         $this->errors = array();
         $this->data['pageTitle'] = 'welcome';   // our default page
     }
+    
     /**
      * Render this page
      */
@@ -39,6 +40,8 @@ class Application extends CI_Controller {
         $this->data['data'] = &$this->data;
         $this->parser->parse('_template', $this->data);
     }
+    
 }
+
 /* End of file MY_Controller.php */
 /* Location: application/core/MY_Controller.php */
